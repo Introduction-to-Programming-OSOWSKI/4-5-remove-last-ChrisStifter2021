@@ -1,1 +1,5 @@
-#WRITE YOUR CODE IN THIS FILE
+
+
+def removeLast(x):
+    x.pop(x[len(x)-2])
+    return (x)
